@@ -1,0 +1,85 @@
+.navbar >ul{
+    list-style: none;
+    display: flex;
+    height: 40px;
+    width: auto;
+    background-color: rgb(245, 138, 99);
+    justify-content: space-around;
+    font-size: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    transition: all 3s ease-in-out 3s;
+}
+.navbar >ul >li{
+    padding: 10px;
+    margin-top: 0px;
+    list-style: none;
+    transition: all 2s ease-in-out -2s;
+}
+.navbar > ul >li:hover{
+    background-color: brown;
+    border-bottom: 1px solid black;
+}
+body{
+    background-image: url("/images/sufyan-I8Lyfwhf28Q-unsplash.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+.scroll-button{
+    position:absolute;
+            right: 20px;
+            bottom: -250px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 3rem;
+            font-weight: 700;
+            align-items:center;
+            width:3rem;
+            z-index: 99;
+            cursor: pointer;
+}
+.media-icon{
+    position:absolute;
+            left: 10px;
+            bottom: -250px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 2rem;
+            font-weight: 700;
+            align-items: center;
+            width: 2rem;
+}
+.home-content{
+    color:blue;
+    font-size: 3rem;
+    text-align: center;
+} 
+.title{
+    font-size: 2rem;
+    text-align: left;
+    text-shadow: 20px;
+}
+.left{
+    text-align: left;
+    height: 90%;
+}
+.about{
+    gap: 30px;
+    text-align: bottom;
+}
+.topic{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: red ;
+    text-align: center;
+}
+.right >p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: aqua;
+    justify-content: space-evenly;
+}
