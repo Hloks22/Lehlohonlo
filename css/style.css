@@ -29,6 +29,7 @@ body{
   }
 .scroll-button{
     position:absolute;
+    background-color: brown;
             right: 20px;
             bottom: -250px;
             display: flex;
