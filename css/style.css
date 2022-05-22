@@ -9,7 +9,7 @@
 }
 
 /* Custom Scroll Bar CSS */
-/* ::-webkit-scrollbar {
+::-webkit-scrollbar {
     width: 20px;
 }
 ::-webkit-scrollbar-track {
@@ -27,9 +27,10 @@
 ::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 162, 255, 0.857);
     
-} */
+}
 /* navbar styling */
 nav{
+  background-image: url(images/sufyan-I8Lyfwhf28Q-unsplash.jpg);
    background-color: #353333;
   position: fixed;
   width: 100%;
@@ -199,6 +200,10 @@ nav.sticky .menu-btn{
   background-color: #fff;
   color:  orange;
 }
+.home img{
+  background-position: center;
+  background-size: cover;
+}
 
 /* About Section Styling */
 /* Those Elements Where We Have Apply Same CSS,
@@ -292,11 +297,7 @@ section .button button:hover{
 }
 
  /* My Skills CSS */
- .skills{
-   background-image: url(/images/paulina-milde-jachowska-k7Xj00Yo6MA-unsplash.jpg);
-   background-position: center;
-   background-size: cover;
- }
+ 
  .skills .content{
    padding: 40px 0;
  }
