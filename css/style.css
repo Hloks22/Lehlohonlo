@@ -30,7 +30,7 @@
 }
 /* navbar styling */
 nav{
-  background-image: url(images/sufyan-I8Lyfwhf28Q-unsplash.jpg);
+  background-image: url();
    background-color: #353333;
   position: fixed;
   width: 100%;
@@ -256,9 +256,10 @@ section .title span::after{
 }
 .about .left img{
   height: 400px;
-  width: 400px;
+  width: 300px;
+  top: 20px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 30px;
 }
 .about-details .right{
   width: 55%;
@@ -773,7 +774,7 @@ input[type=text], select, textarea {
 input[type=submit] {
   background-color: #04AA6D;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 10px;
   border: none;
   cursor: pointer;
 }
