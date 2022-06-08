@@ -30,8 +30,7 @@
 }
 /* navbar styling */
 nav{
-  background-image: url();
-   background-color: #353333;
+  background-color: #353333;
   position: fixed;
   width: 100%;
   padding: 20px 0;
@@ -115,17 +114,17 @@ nav.sticky .menu-btn{
 .scroll-button{
   position:absolute;
   background-color: #fdfdfd;
-          right: 20px;
-          bottom: -250px;
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          font-size: 3rem;
-          font-weight: 700;
-          align-items:center;
-          width:3rem;
-          z-index: 99;
-          cursor: pointer;
+  right: 20px;
+  bottom: -250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 3rem;
+  font-weight: 700;
+  align-items:center;
+  width:3rem;
+  z-index: 99;
+  cursor: pointer;
 }
 
 /* home section styling */
