@@ -40,7 +40,7 @@ nav{
   font-family: 'Ubuntu', sans-serif;
 }
 nav.sticky{
-  background-color: blue;
+  background-color: rgb(216, 72, 6);
   padding: 13px 0;
 }
 nav .navbar{
@@ -53,7 +53,7 @@ nav .navbar{
 nav .navbar .logo a{
   font-weight: 500;
   font-size: 35px;
-  color: orange;
+  color: rgb(81, 255, 0);
 }
 nav.sticky .navbar .logo a{
   color: #fff;
@@ -74,7 +74,7 @@ nav .navbar .menu li{
   transition: all 0.4s ease;
 }
 .navbar .menu a:hover{
-  color: orange;
+  color: rgb(9, 33, 167);
 }
 nav.sticky .menu a{
   color: #FFF;
@@ -83,7 +83,7 @@ nav.sticky .menu a:hover{
   color:#000000;
 }
 .navbar .media-icons a{
-  color: orange;
+  color: rgb(0, 255, 64);
   font-size: 18px;
   margin: 0 6px;
 }
@@ -114,7 +114,7 @@ nav.sticky .menu-btn{
 }
 .scroll-button{
   position:absolute;
-  background-color: #e70909;
+  background-color: #fdfdfd;
           right: 20px;
           bottom: -250px;
           display: flex;
@@ -556,7 +556,7 @@ footer .text span a:hover{
 /* The Modal (background) */
 .modal {
   margin: 0 auto;
-  display: none; /* Hidden by default */
+  display: inline-block; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
   padding-top: 100px; /* Location of the box */
@@ -580,7 +580,7 @@ display: flex;
 
 /* The Close Button */
 .close {
-  color: #aaaaaa;
+  color: #290d77;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -670,7 +670,7 @@ display: flex;
       }
 
       button {
-         padding: 10px;
+      padding: 10px;
       margin-top: 20px;
       border-radius: 20px;
       border: none;
@@ -780,7 +780,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #774ee7;
 }
 
 /* Style the container/contact section */
@@ -808,6 +808,6 @@ input[type=submit]:hover {
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {}
   .column, input[type=submit]{
-    width: 100%;
+    width: 50%;
     margin-top: 0;
   }
