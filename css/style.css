@@ -152,14 +152,14 @@ nav.sticky .menu-btn{
     font-weight: bold;
 }
 .home .text-two{
-    color:rgb(248, 248, 247);
+  color:rgb(248, 248, 247);
   font-size: 75px;
   font-weight: 600;
   margin-left: -3px;
-   overflow: hidden;
+  overflow: hidden;
 
-   white-space: nowrap;
-    animation: typing 3.5s steps(40, end), blink-caret .75s step-end;
+  white-space: nowrap;
+  animation: typing 3.5s steps(40, end), blink-caret .75s step-end;
 }
   @keyframes typing {
     from {width:0}
